@@ -1,3 +1,3 @@
 # Payu
 
-Awesome map based search to manage your bills.
+Add, Search and Share your bills like never before.

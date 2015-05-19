@@ -1,6 +1,6 @@
 # Payu
 
-Add, Search and Share your bills like never before.
+Add, Search and Share your `bills` like never before.
 
 # Built With
 

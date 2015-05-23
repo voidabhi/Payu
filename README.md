@@ -4,4 +4,4 @@ Add, Search and Share your `bills` like never before.
 
 # Built With
 
-`ButterKnife` `Google Play Services` 'Google Maps'
+`ButterKnife` `Google Play Services` `Google Maps`

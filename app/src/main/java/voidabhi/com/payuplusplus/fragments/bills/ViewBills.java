@@ -41,6 +41,8 @@ public class ViewBills extends Fragment {
         try {
             ListView lv = (ListView) root.findViewById(R.id.billList);
         ArrayList<Bill> bills = new ArrayList<Bill>();
+        
+        // Seeding with random bills
         bills.add(new Bill(getUri(getActivity(),R.drawable.bill),"Electricity Bill"));
         bills.add(new Bill(getUri(getActivity(),R.drawable.bill2),"Grocery Bill"));
         bills.add(new Bill(getUri(getActivity(),R.drawable.bill3),"Albany Bill"));

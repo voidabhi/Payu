@@ -2,7 +2,7 @@
 
 Add, Search and Share your `bills` like never before.
 
-*Submission for Payumoney hackathon
+*Submission for `Payumoney` hackathon
 
 # Built With
 

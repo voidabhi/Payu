@@ -109,7 +109,7 @@ public class MainActivity extends MaterialNavigationDrawer {
         Crop.of(source, destination).asSquare().start(this);
     }
 
-
+    // Cropping the image
     private void handleCrop(int resultCode, Intent result) {
         if (resultCode == RESULT_OK && AddBill.resultView != null) {
             AddBill.resultView.setImageURI(Crop.getOutput(result));

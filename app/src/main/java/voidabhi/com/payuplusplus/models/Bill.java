@@ -8,7 +8,7 @@ import com.orm.SugarRecord;
 import java.util.List;
 
 /**
- * Created by ABHIJEET on 09-05-2015.
+ * POJO for bill
  */
 public class Bill extends SugarRecord<Bill> {
 

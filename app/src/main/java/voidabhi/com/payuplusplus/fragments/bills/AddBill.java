@@ -167,6 +167,7 @@ public class AddBill extends Fragment{
         handler.post(addingTagsRunnable);
     }
 
+    // helper to get current location
     public static Location getCurrentLocation(Context context) {
         LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
         Location location = null;

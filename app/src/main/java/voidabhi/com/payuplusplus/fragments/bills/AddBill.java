@@ -129,6 +129,7 @@ public class AddBill extends Fragment{
 
     }
 
+    // adding tags from json objs
     public static void addTags(final Context context,final JsonArray tags,final Uri imageUri){
 
         final String title = titleEdit.getText().toString();
@@ -151,7 +152,6 @@ public class AddBill extends Fragment{
                    if (tag.getText().length() > 0) {
                        flowContainer.addView(tag);
                    }
-
                }
 
               Location location = getCurrentLocation(context);

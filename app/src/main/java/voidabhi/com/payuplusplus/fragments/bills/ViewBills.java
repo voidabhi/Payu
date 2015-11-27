@@ -75,6 +75,7 @@ public class ViewBills extends Fragment {
         super.onAttach(activity);
     }
 
+       // fetch uri from resource
     public Uri getUri(Context context,int resId){
         Resources resources = context.getResources();
         return Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE + "://" + resources.getResourcePackageName(resId) + '/' + resources.getResourceTypeName(resId) + '/' + resources.getResourceEntryName(resId) );

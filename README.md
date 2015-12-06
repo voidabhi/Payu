@@ -1,6 +1,6 @@
 # Payupp
 
-Add, Search and Share your `bills` like never before.
+`Add`, `Search` and `Share` your `bills` like never before.
 
 *Submission for `Payumoney` hackathon
 

@@ -30,13 +30,9 @@ public class SplashScreenActivity extends Activity {
     }
 
 
+    // Shows splash screen for timeout seconds
     private void startMainScreenWithDelay() {
-
-
-
-
         Runnable startScreenRunnable = new Runnable() {
-
 
             @Override
             public void run() {
@@ -46,9 +42,6 @@ public class SplashScreenActivity extends Activity {
             }
         };
 
-
         handler.postDelayed(startScreenRunnable,SPLASH_TIMEOUT);
-
-
     }
 }
